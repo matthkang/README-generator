@@ -23,6 +23,9 @@
   
   run node index.js
 
+  Sample README file created based on user's responses to questions:
+  ![README Generator](images/README-generator.png)
+
   Video demonstrating application: [README Generator Demo](https://drive.google.com/file/d/1YbWh0bZNiJSIABiMj1u3t8LGR4nc-7sr/view?usp=sharing)
   
   ## License
