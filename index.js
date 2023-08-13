@@ -1,3 +1,4 @@
+// packages needed for application
 const inquirer = require('inquirer')
 const fs = require('fs')
 const markdown = require('./utils/generateMarkdown.js')
@@ -12,19 +13,19 @@ const questions = [
     { message: 'What is the usage info?', type: 'input', name: 'usage' },
     { message: 'What are the contribution guidelines?', type: 'input', name: 'contribute' },
     { message: 'What are the test instructions?', type: 'input', name: 'test' },
-
     { message: 'Choose a license from the following options:', type: 'list', name: 'license', choices: ['MIT', 'Apache', 'GPL'] },
     { message: 'What is your GitHub username?', type: 'input', name: 'github' },
     { message: 'What is your email address?', type: 'input', name: 'email' }
 ];
 
+// prompt user from list of questions
+// create README.md file based on answers
 inquirer.prompt(questions)
     .then((answers) => {
         writeToFile(readMeFile, answers)
     })
 
-
-// TODO: Create a function to write README file
+// create a function to write README file
 function writeToFile(fileName, data) {
     const READMEfile = markdown.generateMarkdown(data)
     fs.writeFile(fileName, READMEfile, (err) =>
@@ -33,7 +34,7 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
+// create a function to initialize app
 function init() {
 }
 

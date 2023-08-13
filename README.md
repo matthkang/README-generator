@@ -1,10 +1,10 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
   
-  # Generator
+  # README Generator
 
   ## Description
   
-  generate a README based on user input
+  Generate a README.md for GitHub projects based on user input
   
   ## Table of Contents
   
@@ -17,26 +17,30 @@
   
   ## Installation
   
-  npm install
+  npm i inquirer@8.2.4
   
   ## Usage
   
-  usage info blah
+  run node index.js
+
+  Video demonstrating application: [README Generator Demo](https://drive.google.com/file/d/1YbWh0bZNiJSIABiMj1u3t8LGR4nc-7sr/view?usp=sharing)
   
   ## License
   
-  undefined
+  You are using the Apache license. [Learn more about READMEs](https://docs.github.com/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
   
   ---
   
   ## Contributions
   
-  contribution blah
+  Open source
   
   ## Tests
   
-  test blah 
+  No tests
   
   ## Questions
   
-  
+  Take a look at my other projects: [GitHub Profile](https://github.com/matthkang)
+
+  You can reach me via email at: [matthkang@gmail.com](mailto:matthkang@gmail.com)
